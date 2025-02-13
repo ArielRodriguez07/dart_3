@@ -22,9 +22,10 @@ class figura {
   }
 }
 
-void main(){
-  print("Ariel Rodriguez Ceniceros 22308051280706 6J");
+void main()
+{ print("Ariel Rodriguez Ceniceros 22308051280706 6J");
   var rectangulo = figura(10, 5);
+ 
   rectangulo.mostrar();
   rectangulo.calcularArea(); // Llama al método calcularArea()
   rectangulo.calcularPerimetro(); // Llama al método calcularPerimetro()
